@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THREE JS - Lesson</title>
+    <linkn rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="slider">
+        <div class="slider__flex">
+          <div class="slider__col">
+      
+            <div class="slider__prev"></div> <!-- Кнопка для переключения на предыдущий слайд -->
+      
+            <div class="slider__thumbs">
+              <div class="swiper-container"> <!-- Слайдер с превью -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slider__image"><img src="./image/Group 536.png" alt=""/></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__image"><img src="./image/Group 536.png" alt=""/></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__image"><img src="./image/Group 536.png" alt=""/></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__image"><img src="./image/Group 536.png" alt=""/></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__image"><img src="./image/Group 536.png" alt=""/></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="slider__next"></div> <!-- Кнопка для переключения на следующий слайд -->
+      
+          </div>
+      
+          <div class="slider__images">
+            <div class="swiper-container"> <!-- Слайдер с изображениями -->
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider__image">
+                        <div class="slider__3dmodel">
+                            <div class="container"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__image"><img src="./image/Group 535.png" alt=""/></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__image"><img src="./image/Group 535.png" alt=""/></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__image"><img src="./image/Group 535.png" alt=""/></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__image"><img src="./image/Group 535.png" alt=""/></div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+        </div>
+    </section>
+    
+    
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.139.0/build/three.module.js",
+                "OrbitControls": "https://unpkg.com/three@0.139.0/examples/jsm/controls/OrbitControls.js",
+                "GLTFLoader": "https://unpkg.com/three@0.139.0/examples/jsm/loaders/GLTFLoader.js",
+                "RectAreaLightHelper": "https://unpkg.com/three@0.139.0/examples/jsm/helpers/RectAreaLightHelper.js",
+                "RectAreaLightUniformsLib": "https://unpkg.com/three@0.139.0/examples/jsm/lights/RectAreaLightUniformsLib.js"
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/slider.js"></script>
+    
+</body>
+</html>
